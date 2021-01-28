@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <style type="text/css">
+        body{
+            border-top-width: 3px;
+            border-bottom-width: 3px;
+            border-top-style: solid;
+            border-bottom-style: solid;
+            border-top-color: black;
+            border-bottom-color: black;
+            }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 1em 1em;
+            grid-template-areas:
+            ". . . . . . ."
+            ". . . . . . ."
+            ". . . . . . ."
+            ". . . . . . ."
+            ". . . . . . ."
+            ". . . . . . ."
+            ". . . . . . .";
+            }
+        .buttonleftarrow{
+            background-color:#edf0f3;
+            border-color: black;
+            color: black;
+            border-radius: 60px;
+            padding: 10px;
+            position: absolute;
+            top: 20px;
+            right: 50px;
+            }
+        .buttonrightarrow{
+            background-color:#edf0f3;
+            border-color: black;
+            color: black;
+            border-radius: 60px;
+            padding: 10px;
+            position: absolute;
+            top:20px;
+            right:10px
+            }
+        .nextday:hover{
+            color: rgb(33, 186, 224);
+            }
+        .dayinmonth:hover{
+            color: rgb(33, 186, 224);
+            }
+        .pastday:hover{
+            color: rgb(33, 186, 224);
+            }
+    </style>
+</head>
+<body>
+    <div class="mes">
+        <h3>enero de 2021</h3>
+    </div>
+    <div class="fecha completa">
+        <h5>lunes,25 de enero de 2021</h5>
+    </div>
+    <button class="buttonleftarrow">&#60</button>
+    <button class="buttonrightarrow">&#62</button>
+    <div class= container>
+            <div class="week day">Mo</div>
+            <div class="week day">Tu</div>
+            <div class="week day">We</div>
+            <div class="week day">Th</div>
+            <div class="week day">Fri</div>
+            <div class="week day">Sa</div>
+            <div class="week day">Su</div>
+            <div class="pastday">28</div>
+            <div class="pastday">29</div>
+            <div class="pastday">30</div>
+            <div class="pastday">31</div>
+            <div class="dayinmonth">1</div>
+            <div class="dayinmonth">2</div>
+            <div class="dayinmonth">3</div>
+            <div class="dayinmonth">4</div>
+            <div class="dayinmonth">5</div>
+            <div class="dayinmonth">6</div>
+            <div class="dayinmonth">7</div>
+            <div class="dayinmonth">8</div>
+            <div class="dayinmonth">9</div>
+            <div class="dayinmonth">10</div>
+            <div class="dayinmonth">11</div>
+            <div class="dayinmonth">12</div>
+            <div class="dayinmonth">13</div>
+            <div class="dayinmonth">14</div>
+            <div class="dayinmonth">15</div>
+            <div class="dayinmonth">16</div>
+            <div class="dayinmonth">17</div>
+            <div class="dayinmonth">18</div>
+            <div class="dayinmonth">19</div>
+            <div class="dayinmonth">20</div>
+            <div class="dayinmonth">21</div>
+            <div class="dayinmonth">22</div>
+            <div class="dayinmonth">23</div>
+            <div class="dayinmonth">24</div>
+            <div class="dayinmonth">25</div>
+            <div class="dayinmonth">26</div>
+            <div class="dayinmonth">27</div>
+            <div class="dayinmonth">28</div>
+            <div class="dayinmonth">29</div>
+            <div class="dayinmonth">30</div>
+            <div class="dayinmonth">31</div>
+            <div class="nextday">1</div>
+            <div class="nextday">2</div>
+            <div class="nextday">3</div>
+            <div class="nextday">4</div>
+            <div class="nextday">5</div>
+            <div class="nextday">6</div>
+             <div class="nextday">7</div>
+    </div>
+</body>
+</html>
